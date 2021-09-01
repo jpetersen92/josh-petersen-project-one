@@ -234,3 +234,48 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+a {
+  text-decoration: none;
+}
+
+nav li, .social-container li {
+  list-style: none;
+}
+
+h1, .logo {
+  font-family: "Tulpen One", cursive;
+}
+
+h2, h3, h4, p, a {
+  font-family: "Chathura", sans-serif;
+}
+
+html {
+  font-size: 128%;
+}
+
+h1 {
+  font-size: 13.07rem;
+  letter-spacing: 2.4px;
+}
+
+h2 {
+  font-size: 4.16rem;
+  letter-spacing: 2.6px;
+}
+
+h3 {
+  font-size: 2.9rem;
+  letter-spacing: 2.2px;
+}
+
+nav li {
+  font-size: 1.45rem;
+  letter-spacing: 1.9px;
+}
+
+p {
+  font-size: 1.95rem;
+  letter-spacing: 1.9px;
+}
