@@ -1,24 +1,39 @@
 // Global headers styles
-header {
+// header {
 
-}
+// }
 
 // Header styles by pages
 header.home {
-    background-image: url(.../assets);
+    background-image: url(../assets/home-image-1.jpg);
 }
 
-header.blog {
+// header.blog {
 
-}
+// }
 
-header.contact {
+// header.contact {
 
-}
+// }
 
-nav ul{
+.home-container {
     display: flex;
-    justify-content: space-around;
-    align-items: end;
-    padding: 0 150px;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        padding: 0 150px;
+    }
+}
+
+
+h1 {
+    color: $dusty-orange;
 }

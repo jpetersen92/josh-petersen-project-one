@@ -6,6 +6,12 @@ $dusty-orange: #FF8327;
 $black: #111010;
 $dark-red: #220303;
 
+html {
+    color: $off-white;
+    padding: 0;
+    margin: 0;
+}
+
 // Wrapper
 .wrapper {
     max-width: 1500px;
@@ -17,6 +23,7 @@ $dark-red: #220303;
 
 a {
     text-decoration: none;
+    color: $off-white;
 }
 nav li, .social-container li {
     list-style: none;
