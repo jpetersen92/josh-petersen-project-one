@@ -4,9 +4,9 @@
 // }
 
 // Header styles by pages
-header.home {
-    background-image: url(../assets/home-image-1.jpg);
-}
+// header.home {
+    
+// }
 
 // header.blog {
 
@@ -19,7 +19,12 @@ header.home {
 .home-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-image: url(../assets/home-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 nav {
@@ -29,11 +34,26 @@ nav {
         display: flex;
         justify-content: space-around;
         align-items: end;
-        padding: 0 150px;
+        padding: 0 20%;
     }
 }
 
+.title-container {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 50px;
+    z-index: 5;
+}
 
 h1 {
     color: $dusty-orange;
+    margin-bottom: -90px;
+}
+
+.home-container img {
+    position: absolute;
+    right: 0;
+    bottom: -140px;
+    z-index: 1;
+    width: 710px;
 }

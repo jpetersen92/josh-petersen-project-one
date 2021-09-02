@@ -237,8 +237,15 @@ html {
 
 html {
   color: #FFFFFF;
-  padding: 0;
+}
+
+body {
+  background-color: #111010;
+}
+
+h1, h2, h3, h4, p {
   margin: 0;
+  padding: 0;
 }
 
 .wrapper {
@@ -297,10 +304,6 @@ p {
   letter-spacing: 1.9px;
 }
 
-header.home {
-  background-image: url(../assets/home-image-1.jpg);
-}
-
 .home-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,9 +312,16 @@ header.home {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url(../assets/home-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 nav {
@@ -326,9 +336,30 @@ nav ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  padding: 0 150px;
+  padding: 0 20%;
+}
+
+.title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 200px 0 50px;
+  z-index: 5;
 }
 
 h1 {
   color: #FF8327;
+  margin-bottom: -90px;
+}
+
+.home-container img {
+  position: absolute;
+  right: 0;
+  bottom: -140px;
+  z-index: 1;
+  width: 710px;
 }
