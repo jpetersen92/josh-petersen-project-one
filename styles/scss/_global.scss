@@ -6,6 +6,13 @@ $dusty-orange: #FF8327;
 $black: #111010;
 $dark-red: #220303;
 
+// Wrapper
+.wrapper {
+    max-width: 1500px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 // Default settings
 
 a {

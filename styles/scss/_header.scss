@@ -1,0 +1,24 @@
+// Global headers styles
+header {
+
+}
+
+// Header styles by pages
+header.home {
+    background-image: url(.../assets);
+}
+
+header.blog {
+
+}
+
+header.contact {
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding: 0 150px;
+}
