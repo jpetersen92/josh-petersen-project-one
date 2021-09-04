@@ -19,6 +19,7 @@ h1, h2, h3, h4, p {
     padding: 0;
 }
 
+
 // Wrapper
 .wrapper {
     max-width: 1500px;
@@ -32,6 +33,12 @@ a {
     text-decoration: none;
     color: $off-white;
 }
+
+.text-container a {
+    background-color: $rust-red;
+    padding: 5px 40px;
+}
+
 nav li, .social-container li {
     list-style: none;
 }

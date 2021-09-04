@@ -3,16 +3,16 @@
 // font-family: 'Tulpen One', cursive;
 
 // font families
-h1, .logo {
+h1, .logo , a {
     font-family: 'Tulpen One', cursive;
 }
-h2, h3, h4, p, a {
+h2, h3, h4, p, nav li {
     font-family: 'Chathura', sans-serif;
 }
 
 // font sizes
 html {
-    font-size: 128%;
+    font-size: 125%;
 }
 
 h1 {
@@ -30,6 +30,10 @@ h3 {
     letter-spacing: 2.2px;
 }
 
+a {
+    font-size: 1.45rem;
+}
+
 .logo {
     font-size: 2rem;
 }
@@ -40,7 +44,7 @@ nav li {
 }
 
 p {
-    font-size: 1.95rem;
+    font-size: 1.5rem;
     letter-spacing: 1.9px;
 }
 
