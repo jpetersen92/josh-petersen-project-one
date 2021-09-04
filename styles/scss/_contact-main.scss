@@ -1,3 +1,36 @@
 // Contact Main
 
-// 
+main {
+    display: flex;
+}
+// Contact info & social links
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.social-container ul{
+    display: flex;
+}
+
+// Form
+
+.contact-form {
+    width: 50%;
+    padding: 20px;
+    background-color: $dark-red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#message {
+    width: 100%;
+}

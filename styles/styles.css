@@ -272,7 +272,23 @@ h1, .logo, a {
   font-family: "Tulpen One", cursive;
 }
 
-h2, h3, h4, p, nav li {
+textarea::-webkit-input-placeholder {
+  font-family: "Chathura", sans-serif;
+}
+
+textarea::-moz-placeholder {
+  font-family: "Chathura", sans-serif;
+}
+
+textarea:-ms-input-placeholder {
+  font-family: "Chathura", sans-serif;
+}
+
+textarea::-ms-input-placeholder {
+  font-family: "Chathura", sans-serif;
+}
+
+h2, h3, h4, p, nav li, form, textarea::placeholder, button {
   font-family: "Chathura", sans-serif;
 }
 
@@ -295,7 +311,7 @@ h3 {
   letter-spacing: 2.2px;
 }
 
-a {
+a, button {
   font-size: 1.45rem;
 }
 
@@ -371,6 +387,15 @@ h1 {
   bottom: -140px;
   z-index: 1;
   width: 710px;
+}
+
+.contact {
+  background-image: url(../assets/contact-header-1.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.contact h2 {
+  margin: 120px 100px 0;
 }
 
 .about-container {
@@ -502,6 +527,55 @@ h1 {
 }
 .gallery-container img:nth-last-child(2) {
   margin: 0 30px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+}
+
+.social-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-form {
+  width: 50%;
+  padding: 20px;
+  background-color: #220303;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+#message {
+  width: 100%;
 }
 
 footer {
