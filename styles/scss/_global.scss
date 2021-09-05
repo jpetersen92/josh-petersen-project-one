@@ -47,14 +47,14 @@ textarea::placeholder {
     color: $off-white;
 }
 
-input {
-    border: none;
-    border-bottom: 1px solid $off-white;
-}
+// input {
+//     border: none;
+//     border-bottom: 1px solid $off-white;
+// }
 
-textarea {
-    border: 1px solid $off-white;
-}
+// textarea {
+//     border: 1px solid $off-white;
+// }
 
 input, textarea {
     background-color: rgba($color: #000000, $alpha: 0);

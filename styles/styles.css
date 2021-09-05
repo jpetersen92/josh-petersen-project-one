@@ -288,15 +288,6 @@ textarea::placeholder {
   color: #FFFFFF;
 }
 
-input {
-  border: none;
-  border-bottom: 1px solid #FFFFFF;
-}
-
-textarea {
-  border: 1px solid #FFFFFF;
-}
-
 input, textarea {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -362,6 +353,10 @@ textarea::-ms-input-placeholder {
 
 a, button, label, textarea::placeholder {
   font-size: 1.45rem;
+}
+
+label {
+  padding-left: 20px;
 }
 
 .logo {
@@ -444,7 +439,7 @@ h1 {
   height: 400px;
 }
 .contact h2 {
-  margin: 120px 100px 0;
+  margin: 120px 150px 0;
 }
 
 .about-container {
@@ -585,7 +580,10 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 100px;
+  padding: 0 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contact-container {
@@ -596,23 +594,41 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-left: 50px;
 }
 
 .social-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0;
+}
+.social-container ul li {
+  margin-right: 20px;
 }
 
 .contact-form {
-  width: 60%;
-  padding: 20px;
+  width: 65%;
+  padding: 75px 50px;
   background-color: #220303;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 20px 20px #FF8327;
+          box-shadow: 20px 20px #FF8327;
+  position: relative;
+  top: -120px;
+}
+.contact-form button {
+  width: 100%;
 }
 
 .form-container {
@@ -623,11 +639,17 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 50%;
+  width: 48%;
+}
+.form-container input {
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 #message {
   width: 100%;
+  margin: 50px 0;
+  border: 1px solid #FFFFFF;
 }
 
 footer {
