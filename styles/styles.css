@@ -268,6 +268,39 @@ nav li, .social-container li {
   list-style: none;
 }
 
+textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+textarea::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+textarea::placeholder {
+  color: #FFFFFF;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+textarea {
+  border: 1px solid #FFFFFF;
+}
+
+input, textarea {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 h1, .logo, a {
   font-family: "Tulpen One", cursive;
 }
@@ -311,7 +344,23 @@ h3 {
   letter-spacing: 2.2px;
 }
 
-a, button {
+textarea::-webkit-input-placeholder {
+  font-size: 1.45rem;
+}
+
+textarea::-moz-placeholder {
+  font-size: 1.45rem;
+}
+
+textarea:-ms-input-placeholder {
+  font-size: 1.45rem;
+}
+
+textarea::-ms-input-placeholder {
+  font-size: 1.45rem;
+}
+
+a, button, label, textarea::placeholder {
   font-size: 1.45rem;
 }
 
@@ -533,6 +582,10 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px;
 }
 
 .contact-container {
@@ -543,7 +596,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 100px;
 }
 
 .social-container ul {
@@ -553,7 +605,7 @@ main {
 }
 
 .contact-form {
-  width: 50%;
+  width: 60%;
   padding: 20px;
   background-color: #220303;
   display: -webkit-box;

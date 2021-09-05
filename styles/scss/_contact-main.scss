@@ -2,13 +2,15 @@
 
 main {
     display: flex;
+    justify-content:space-between;
+    padding: 100px;
+
 }
 // Contact info & social links
 
 .contact-container {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
 }
 
 .social-container ul{
@@ -18,7 +20,7 @@ main {
 // Form
 
 .contact-form {
-    width: 50%;
+    width: 60%;
     padding: 20px;
     background-color: $dark-red;
     display: flex;
