@@ -34,9 +34,10 @@ a {
     color: $off-white;
 }
 
-.text-container a {
+.text-container a, button {
     background-color: $rust-red;
     padding: 5px 40px;
+    border: none;
 }
 
 nav li, .social-container li {
@@ -46,15 +47,6 @@ nav li, .social-container li {
 textarea::placeholder {
     color: $off-white;
 }
-
-// input {
-//     border: none;
-//     border-bottom: 1px solid $off-white;
-// }
-
-// textarea {
-//     border: 1px solid $off-white;
-// }
 
 input, textarea {
     background-color: rgba($color: #000000, $alpha: 0);
