@@ -28,18 +28,15 @@
 // Form
 
 .contact-form {
-    width: 65%;
     padding: 75px 50px;
     background-color: $dark-red;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     box-shadow: 20px 20px $dusty-orange;
     position: relative;
     top: -120px;
-
-    button {
-        width: 100%;
+    
+    input {
+        border: none;
+        border-bottom: 1px solid $off-white;
     }
 }
 
@@ -48,16 +45,10 @@
     flex-direction: column;
     width: 48%;
     
-
-    input {
-        border: none;
-    border-bottom: 1px solid $off-white;
-    }
+    
 }
 
 #message {
-    width: 100%;
-    margin: 50px 0;
     border: 1px solid $off-white;
     
 }

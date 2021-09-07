@@ -1,7 +1,66 @@
 // Blog Main
 
+.blog-container {
+    display: flex;
+
+    a {
+        font-family: 'Chathura', sans-serif;
+        background-color:rgba($color: #000000, $alpha: 0) ;
+        padding: 0;
+        border: none;
+    }
+}
+
 // Article
+article, .comments {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
 
+article {
+
+    img {
+        width: calc(100% - 20px);
+        box-shadow: -20px 20px $dusty-orange;
+        position: relative;
+        top: -100px;
+    }
+
+    .text-container {
+        margin-top: -80px;
+        padding: 70px 100px;
+        border-left: 5px solid $dusty-orange;
+        border-bottom: 5px solid $dusty-orange;
+    }
+}
 // Side Bar
+aside {
+    width: 28%;
+    background-color: $dark-red;
+    margin: 100px 150px 75px 80px;
 
+    img {
+        position: relative;
+        top: -20px;
+        left: -80px;
+    }
+}
 // Comments & Comment Form
+
+.comment-form {
+
+    label {
+        color: $dusty-orange;
+    }
+    
+    input {
+        border: none;
+        border-bottom: 1px solid $dusty-orange;
+    }
+
+    #comment {
+        border: 1px solid $dusty-orange;
+    }
+}

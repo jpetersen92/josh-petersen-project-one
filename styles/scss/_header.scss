@@ -1,4 +1,6 @@
 // Global headers styles
+
+
 // header {
 
 .home-container {
@@ -41,6 +43,18 @@ h1 {
     bottom: -140px;
     z-index: 1;
     width: 710px;
+}
+
+// Blog
+
+.blog {
+    background-image: url(../assets/blog-header-1.jpg);
+    background-size: cover;
+    height: 400px;
+
+    h2 {
+        margin: 120px 150px 0;
+    }
 }
 
 //  Contact
