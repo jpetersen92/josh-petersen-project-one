@@ -2,6 +2,34 @@
 
     // INDEX/ HOME
 
+    // LOCATION
+    .location-container {
+        flex-direction: column;
+        padding: 0 50px;
+        align-items: center;
+
+        img {
+            width: 80%;
+            position: static;
+        }
+        .bar-img {
+            order: 2;
+        }
+        .stool-img {
+            order: 4;
+            margin-bottom: 3rem;
+        }
+
+        .text-container:first-of-type{
+            order: 1;
+            padding-top: 1rem;
+        }
+        .text-container {
+            width: 100%;
+            order: 3;
+        }
+    }
+
     // BLOG
 
     // CONTACT
@@ -28,6 +56,12 @@ header nav {
 }
 
     // INDEX/ HOME
+
+    // ABOUT
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
     // BLOG
 
