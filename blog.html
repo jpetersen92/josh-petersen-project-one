@@ -24,24 +24,25 @@
             <h2>Blog</h2>
     </header>
     <main>
-            <div class="blog-container">
-                <aside>
-                    <img src="./assets/sidebar-image.jpg" alt="">
-                    <div class="text-container">
-                        <h3>Our Mission</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, tempora!</p>
-                        <a href="#">Find out more.</a>
-                    </div>
-                    <div class="text-container">
-                        <h3>Recent Posts</h3>
-                        <ul>
-                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-                        </ul>
-                    </div>
-                </aside>
+        <div class="blog-container">
+            <aside>
+                <img src="./assets/sidebar-image.jpg" alt="">
+                <div class="text-container">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, tempora!</p>
+                    <a href="#">Find out more.</a>
+                </div>
+                <div class="text-container">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="right-side-of-page">
                 <article>
                     <img src="./assets/post-image.jpg" alt="">
                     <div class="text-container">
@@ -54,37 +55,42 @@
                         <p>Praesentium nesciunt, laboriosam rem accusamus voluptate exercitationem esse hic eum autem pariatur quo cum assumenda aut dignissimos labore, veritatis veniam, dicta rerum numquam laudantium fuga at ipsum! Facere veniam fugiat quasi. Consequatur eveniet praesentium reprehenderit impedit dolorum amet labore, modi, dolores natus cum rerum.</p>
                     </div>
                 </article>
-            </div>
-                <section class="comments">
+                <div class="comments">
                     <h3>Comments:</h3>
                     <div class="comment-container">
                         <img src="./assets/comment-image-1.jpg" alt="">
-                        <h4>Tuesday October 9th, 2021 by Sularie</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem, hic maxime voluptate dolores reprehenderit mollitia inventore quis doloribus quisquam error odio illo deleniti ex illum accusamus fuga quas tenetur quia numquam est. Consequuntur, repudiandae odit. Consequuntur et neque nihil.</p>
+                        <div class="text-container">
+                            <h4>Tuesday October 9th, 2021 by Sularie</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem, hic maxime voluptate dolores reprehenderit mollitia inventore quis doloribus quisquam error odio illo deleniti ex illum accusamus fuga quas tenetur quia numquam est. Consequuntur, repudiandae odit. Consequuntur et neque nihil.</p>
+                        </div>
                     </div>
                     <div class="comment-container">
                         <img src="./assets/comment-image-2.jpg" alt="">
-                        <h4>Wednesday October 10th, 2021 by Renzo</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium harum distinctio corrupti dolorem sit necessitatibus nulla id eum, voluptatem, cum eos, quidem quae ratione sequi!</p>
+                        <div class="text-container">
+                            <h4>Wednesday October 10th, 2021 by Renzo</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium harum distinctio corrupti dolorem sit necessitatibus nulla id eum, voluptatem, cum eos, quidem quae ratione sequi!</p>
+                        </div>
                     </div>
                     <form action="submit" method="POST" class="comment-form" name="comment-form">
-                        
-                        <div class="form-container">
-                            <label for="username">Name</label>
-                            <input type="text" name="username" id="username">
-                        </div>
-        
-                        <div class="form-container">
-                            <label for="useremail">Email address</label>
-                            <input type="email" name="useremail" id="useremail">
-                        </div>
-        
-                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
-        
-                        <button type="submit">Submit</button>
-        
+            
+                    <div class="form-container">
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+            
+                    <div class="form-container">
+                        <label for="useremail">Email address</label>
+                        <input type="email" name="useremail" id="useremail">
+                    </div>
+            
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+            
+                    <button type="submit">Submit</button>
+            
                     </form>
-                </section>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="wrapper">
