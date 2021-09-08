@@ -1,7 +1,6 @@
 @media (max-width: 940px) {
 
     // INDEX/ HOME
-
     // LOCATION
     .location-container {
         flex-direction: column;
@@ -29,6 +28,20 @@
             order: 3;
         }
     }
+
+    // EVENTS
+        .event-container {
+            flex-direction: column-reverse;
+            padding-bottom: 100px;
+
+            img {
+                margin-top: 50px;
+            }
+
+            .text-container {
+                margin: 0;
+            }
+        }
 
     // BLOG
 
@@ -63,6 +76,16 @@ header nav {
         align-items: center;
     }
 
+    .content-container {
+        width: 90%;
+    }
+
+    // GALLERY
+
+    .gallery-container {
+        padding: 40px 0;
+    }
+
     // BLOG
 
     // CONTACT
@@ -72,8 +95,42 @@ header nav {
 @media (max-width: 480px) {
 
      // HEADER GLOBAL
-
+        h1 {
+            font-size: 10rem;
+        }
+        h2 {
+            font-size: 3rem;
+            margin: 30px 0 0 8px;
+        }
     // INDEX/ HOME
+    // LOCATIONS
+    .location-container {
+
+        img {
+            width: 100%;
+        }
+
+        .text-container {
+            padding: 2rem 0;
+        }
+    }
+
+    // PARTY
+
+    .party-container .text-container {
+        margin: 50px 0;
+    }
+
+     // GALLERY
+
+    .gallery-container {
+        padding: 10px 0;
+
+        img:nth-last-child(2) {
+            margin: 0 1clear0px;
+        }
+    }
+
 
     // BLOG
 
