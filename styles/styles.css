@@ -576,7 +576,7 @@ h1 {
   padding: 100px 50px 120px;
 }
 .event-container .text-container {
-  margin-left: 100px;
+  margin-left: 10%;
 }
 .event-container .text-container h3 {
   color: #FF8327;
