@@ -30,14 +30,16 @@
     }
 }
 
+.right-side-of-page {
+    width: 70%;
+}
+
 // Article
+
 article {
     display: flex;
     flex-direction: column;
     align-items: end;
-}
-
-article {
 
     img {
         width: calc(100% - 20px);
@@ -55,14 +57,18 @@ article {
 }
 // Side Bar
 aside {
-    width: 28%;
-    height: 100vh;
+    width: 30%;
+    height: 50%;
     background-color: $dark-red;
     margin: 100px 150px 75px 80px;
+    padding-bottom: 10px;
 
-    
+    .text-container {
+        margin: 0 20px 10px;
+    }
 
     img {
+        width: 115%;
         position: relative;
         top: -20px;
         left: -80px;
@@ -73,18 +79,34 @@ aside {
 .comments {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 50px 100px;
+
+    .comment-container:first-of-type {
+        margin-bottom: 50px;
+    }
 }
 
 .comment-container {
     display: flex;
 
+    h4 {
+        color: $dusty-orange;
+        font-size: 2rem;
+    }
+
     img {
+        margin-top: 12px;
         height: 4rem;
+    }
+
+    .text-container {
+        margin-left: 30px;
     }
 }
 
 .comment-form {
+    align-self: center;
+    margin: 50px 0;
 
     label {
         color: $dusty-orange;

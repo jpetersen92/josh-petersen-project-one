@@ -271,7 +271,6 @@ nav li, .social-container li {
 }
 
 form {
-  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,6 +427,9 @@ nav ul {
       -ms-flex-align: end;
           align-items: end;
   padding: 0 20%;
+}
+nav .current {
+  color: #FF8327;
 }
 
 .title-container {
@@ -632,6 +634,10 @@ h1 {
   color: #FFFFFF;
 }
 
+.right-side-of-page {
+  width: 70%;
+}
+
 article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -644,7 +650,6 @@ article {
       -ms-flex-align: end;
           align-items: end;
 }
-
 article img {
   width: calc(100% - 20px);
   -webkit-box-shadow: -20px 20px #FF8327;
@@ -660,12 +665,17 @@ article .text-container {
 }
 
 aside {
-  width: 28%;
-  height: 100vh;
+  width: 30%;
+  height: 50%;
   background-color: #220303;
   margin: 100px 150px 75px 80px;
+  padding-bottom: 10px;
+}
+aside .text-container {
+  margin: 0 20px 10px;
 }
 aside img {
+  width: 115%;
   position: relative;
   top: -20px;
   left: -80px;
@@ -679,9 +689,10 @@ aside img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 50px 100px;
+}
+.comments .comment-container:first-of-type {
+  margin-bottom: 50px;
 }
 
 .comment-container {
@@ -689,10 +700,23 @@ aside img {
   display: -ms-flexbox;
   display: flex;
 }
+.comment-container h4 {
+  color: #FF8327;
+  font-size: 2rem;
+}
 .comment-container img {
+  margin-top: 12px;
   height: 4rem;
 }
+.comment-container .text-container {
+  margin-left: 30px;
+}
 
+.comment-form {
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 50px 0;
+}
 .comment-form label {
   color: #FF8327;
 }
@@ -742,6 +766,7 @@ aside img {
 }
 
 .contact-form {
+  width: 65%;
   padding: 75px 50px;
   background-color: #220303;
   -webkit-box-shadow: 20px 20px #FF8327;
