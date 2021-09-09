@@ -1,5 +1,11 @@
 // Blog Main
 
+.blog-main {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .blog-container {
     display: flex;
 
@@ -29,14 +35,11 @@
         color: $off-white;
     }
 }
-
-.right-side-of-page {
+    
+    // Article
+    
+    article {
     width: 70%;
-}
-
-// Article
-
-article {
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -50,7 +53,7 @@ article {
 
     .text-container {
         margin-top: -80px;
-        padding: 70px 100px;
+        padding: 3.5rem 5rem;
         border-left: 5px solid $dusty-orange;
         border-bottom: 5px solid $dusty-orange;
     }
@@ -60,7 +63,7 @@ aside {
     width: 30%;
     height: 50%;
     background-color: $dark-red;
-    margin: 100px 150px 75px 80px;
+    margin: 5rem 5.25rem 3.75rem 4rem;
     padding-bottom: 10px;
 
     .text-container {
@@ -77,9 +80,10 @@ aside {
 // Comments & Comment Form
 
 .comments {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    margin: 50px 100px;
+    margin: 50px 50px;
 
     .comment-container:first-of-type {
         margin-bottom: 50px;

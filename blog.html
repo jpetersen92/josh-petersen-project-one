@@ -24,7 +24,7 @@
             </nav>
             <h2>Blog</h2>
     </header>
-    <main>
+    <main class="blog-main">
         <div class="blog-container">
             <aside>
                 <img src="./assets/sidebar-image.jpg" alt="">
@@ -43,54 +43,53 @@
                     </ul>
                 </div>
             </aside>
-            <div class="right-side-of-page">
-                <article>
-                    <img src="./assets/post-image.jpg" alt="">
-                    <div class="text-container">
-                        <h3>New Menu!</h3>
-                        <p class="sub-heading">
-                            Monday January 30, 2021 by Saron
-                        </p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, eum perspiciatis! Laudantium quisquam a consectetur molestias error facere iste corrupti beatae libero soluta. </p>
-                        <p>Vitae, quaerat ab dolorum iure asperiores sequi minima ipsa? Culpa perferendis, dolores animi, saepe a enim alias pariatur nemo nesciunt ipsa quas odio corrupti fugiat at doloribus ipsam, aliquid aperiam libero?</p>  <p>Non libero reprehenderit atque nemo laborum saepe optio illum inventore similique magni. Quaerat minima veritatis quis earum possimus facilis doloremque distinctio aliquam incidunt nihil pariatur harum hic numquam, nulla dicta, dolorem velit voluptates expedita ullam. Magnam dicta hic eum maiores deleniti neque fugit dolorum, natus deserunt molestias at, veritatis error, iste blanditiis?</p>
-                        <p>Praesentium nesciunt, laboriosam rem accusamus voluptate exercitationem esse hic eum autem pariatur quo cum assumenda aut dignissimos labore, veritatis veniam, dicta rerum numquam laudantium fuga at ipsum! Facere veniam fugiat quasi. Consequatur eveniet praesentium reprehenderit impedit dolorum amet labore, modi, dolores natus cum rerum.</p>
-                    </div>
-                </article>
-                <div class="comments">
-                    <h3>Comments:</h3>
-                    <div class="comment-container">
-                        <img src="./assets/comment-image-1.jpg" alt="">
-                        <div class="text-container">
-                            <h4>Tuesday October 9th, 2021 by Sularie</h4>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem, hic maxime voluptate dolores reprehenderit mollitia inventore quis doloribus quisquam error odio illo deleniti.</p>
-                        </div>
-                    </div>
-                    <div class="comment-container">
-                        <img src="./assets/comment-image-2.jpg" alt="">
-                        <div class="text-container">
-                            <h4>Wednesday October 10th, 2021 by Renzo</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium harum distinctio corrupti dolorem sit necessitatibus nulla id eum, voluptatem, cum eos, quidem quae ratione sequi!</p>
-                        </div>
-                    </div>
-                    <form action="submit" method="POST" class="comment-form" name="comment-form">
             
-                    <div class="form-container">
-                        <label for="username">Name</label>
-                        <input type="text" name="username" id="username">
-                    </div>
-            
-                    <div class="form-container">
-                        <label for="useremail">Email address</label>
-                        <input type="email" name="useremail" id="useremail">
-                    </div>
-            
-                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
-            
-                    <button type="submit">Submit</button>
-            
-                    </form>
+            <article>
+                <img src="./assets/post-image.jpg" alt="">
+                <div class="text-container">
+                    <h3>New Menu!</h3>
+                    <p class="sub-heading">
+                        Monday January 30, 2021 by Saron
+                    </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, eum perspiciatis! Laudantium quisquam a consectetur molestias error facere iste corrupti beatae libero soluta. </p>
+                    <p>Vitae, quaerat ab dolorum iure asperiores sequi minima ipsa? Culpa perferendis, dolores animi, saepe a enim alias pariatur nemo nesciunt ipsa quas odio corrupti fugiat at doloribus ipsam, aliquid aperiam libero?</p>  <p>Non libero reprehenderit atque nemo laborum saepe optio illum inventore similique magni. Quaerat minima veritatis quis earum possimus facilis doloremque distinctio aliquam incidunt nihil pariatur harum hic numquam, nulla dicta, dolorem velit voluptates expedita ullam. Magnam dicta hic eum maiores deleniti neque fugit dolorum, natus deserunt molestias at, veritatis error, iste blanditiis?</p>
+                    <p>Praesentium nesciunt, laboriosam rem accusamus voluptate exercitationem esse hic eum autem pariatur quo cum assumenda aut dignissimos labore, veritatis veniam, dicta rerum numquam laudantium fuga at ipsum! Facere veniam fugiat quasi. Consequatur eveniet praesentium reprehenderit impedit dolorum amet labore, modi, dolores natus cum rerum.</p>
+                </div>
+            </article>
+        </div>
+        <div class="comments">
+            <h3>Comments:</h3>
+            <div class="comment-container">
+                <img src="./assets/comment-image-1.jpg" alt="">
+                <div class="text-container">
+                    <h4>Tuesday October 9th, 2021 by Sularie</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis exercitationem, hic maxime voluptate dolores reprehenderit mollitia inventore quis doloribus quisquam error odio illo deleniti.</p>
                 </div>
             </div>
+            <div class="comment-container">
+                <img src="./assets/comment-image-2.jpg" alt="">
+                <div class="text-container">
+                    <h4>Wednesday October 10th, 2021 by Renzo</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium harum distinctio corrupti dolorem sit necessitatibus nulla id eum, voluptatem, cum eos, quidem quae ratione sequi!</p>
+                </div>
+            </div>
+            <form action="submit" method="POST" class="comment-form" name="comment-form">
+    
+            <div class="form-container">
+                <label for="username">Name</label>
+                <input type="text" name="username" id="username">
+            </div>
+    
+            <div class="form-container">
+                <label for="useremail">Email address</label>
+                <input type="email" name="useremail" id="useremail">
+            </div>
+    
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
+    
+            <button type="submit">Submit</button>
+    
+            </form>
         </div>
     </main>
     <footer>
