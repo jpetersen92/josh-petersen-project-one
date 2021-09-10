@@ -119,10 +119,12 @@ aside {
     input {
         border: none;
         border-bottom: 1px solid $dusty-orange;
+        color: $dusty-orange;
     }
 
     #comment {
         border: 1px solid $dusty-orange;
+        color: $dusty-orange;
     }
 
     #comment::placeholder {

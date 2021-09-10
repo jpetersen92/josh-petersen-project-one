@@ -319,7 +319,7 @@ textarea::-ms-input-placeholder {
   font-family: "Chathura", sans-serif;
 }
 
-h2, h3, h4, p, nav li, form, textarea::placeholder, button {
+h2, h3, h4, p, nav li, form, input, textarea, textarea::placeholder, button {
   font-family: "Chathura", sans-serif;
 }
 
@@ -358,7 +358,7 @@ textarea::-ms-input-placeholder {
   font-size: 1.45rem;
 }
 
-a, button, label, textarea::placeholder {
+a, button, label, input, textarea, textarea::placeholder {
   font-size: 1.45rem;
 }
 
@@ -733,9 +733,11 @@ aside img {
 .comment-form input {
   border: none;
   border-bottom: 1px solid #FF8327;
+  color: #FF8327;
 }
 .comment-form #comment {
   border: 1px solid #FF8327;
+  color: #FF8327;
 }
 .comment-form #comment::-webkit-input-placeholder {
   color: #FF8327;
@@ -813,9 +815,13 @@ aside img {
           flex-direction: column;
   width: 48%;
 }
+.form-container input {
+  color: #FFFFFF;
+}
 
 #message {
   border: 1px solid #FFFFFF;
+  color: #FFFFFF;
 }
 
 #message::-webkit-input-placeholder {
