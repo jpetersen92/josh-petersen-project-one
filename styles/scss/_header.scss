@@ -11,6 +11,14 @@
     position: relative;
 }
 
+.fa-bars {
+    border-radius: 0;
+    font-size: 2rem;
+    align-self: start;
+    padding: 30px 30px 0;
+    z-index: 3;
+}
+
 nav {
     width: 100%;
     padding-top: 10px;

@@ -292,6 +292,7 @@ textarea {
 
 input, textarea {
   background-color: rgba(0, 0, 0, 0);
+  border-radius: 0;
 }
 
 .mobile {
@@ -397,6 +398,15 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.fa-bars {
+  border-radius: 0;
+  font-size: 2rem;
+  -ms-flex-item-align: start;
+      align-self: start;
+  padding: 30px 30px 0;
+  z-index: 3;
 }
 
 nav {
