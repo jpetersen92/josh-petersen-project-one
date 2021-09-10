@@ -803,6 +803,7 @@ aside img {
 .contact-form input {
   border: none;
   border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
 }
 
 .form-container {
@@ -814,9 +815,6 @@ aside img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 48%;
-}
-.form-container input {
-  color: #FFFFFF;
 }
 
 #message {
