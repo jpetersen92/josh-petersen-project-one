@@ -1,3 +1,9 @@
+@media (max-width: 1080px) {
+    aside {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 940px) {
 
     // INDEX/ HOME
@@ -45,6 +51,27 @@
 
     // BLOG
 
+    .blog-main {
+        align-items: center;
+    }
+
+    aside {
+        margin: 0;
+
+        img {
+            position: static;
+            width: 100%;
+        }
+    }
+
+    article .text-container {
+        padding: 1.5rem;
+    }
+
+    .comments {
+        width: 100%;
+        padding: 1.5rem;
+    }
     // CONTACT
 
     .contact-main {
@@ -72,7 +99,7 @@ header nav {
 .fa-bars {
     display: inline-block;
     font-size: 2rem;
-    align-self: end;
+    align-self: start;
     padding: 30px 30px 0;
 }
 
@@ -104,6 +131,29 @@ header nav {
     }
 
     // BLOG
+
+    .blog-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    article {
+        width: 90%;
+    }
+
+    aside {
+        width: 100%;
+        display: flex;
+        padding: 0;
+
+        img {
+            display: none;
+        }
+
+        .text-container {
+            width: 100%;
+        }
+    }
 
     // CONTACT
 

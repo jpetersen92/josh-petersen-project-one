@@ -431,6 +431,7 @@ nav ul {
       -ms-flex-align: end;
           align-items: end;
   padding: 0 20%;
+  margin: 0;
 }
 nav .current {
   color: #FF8327;
@@ -705,7 +706,7 @@ aside img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 50px 50px;
+  margin: 1.5rem;
 }
 .comments .comment-container:first-of-type {
   margin-bottom: 50px;
@@ -814,6 +815,11 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 1080px) {
+  aside {
+    margin-left: 0;
+  }
+}
 @media (max-width: 940px) {
   .location-container {
     -webkit-box-orient: vertical;
@@ -867,6 +873,29 @@ footer {
     margin: 0;
   }
 
+  .blog-main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  aside {
+    margin: 0;
+  }
+  aside img {
+    position: static;
+    width: 100%;
+  }
+
+  article .text-container {
+    padding: 1.5rem;
+  }
+
+  .comments {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
   .contact-main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -890,8 +919,8 @@ footer {
   .fa-bars {
     display: inline-block;
     font-size: 2rem;
-    -ms-flex-item-align: end;
-        align-self: end;
+    -ms-flex-item-align: start;
+        align-self: start;
     padding: 30px 30px 0;
   }
 
@@ -920,6 +949,34 @@ footer {
 
   .gallery-container {
     padding: 40px 0;
+  }
+
+  .blog-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  article {
+    width: 90%;
+  }
+
+  aside {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+  }
+  aside img {
+    display: none;
+  }
+  aside .text-container {
+    width: 100%;
   }
 
   .form-container {
