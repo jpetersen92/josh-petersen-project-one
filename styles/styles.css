@@ -606,7 +606,7 @@ h1 {
   padding: 80px 40px;
 }
 .gallery-container img {
-  width: 100%;
+  width: calc(100% / 3);
 }
 .gallery-container img:nth-last-child(2) {
   margin: 0 30px;

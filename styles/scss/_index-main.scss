@@ -125,7 +125,7 @@
     padding: 80px 40px ;
 
     img {
-        width: 100%;
+        width: calc(100% / 3);
     }
 
     img:nth-last-child(2) {
