@@ -907,7 +907,7 @@ footer {
   }
 
   .comments {
-    width: 100%;
+    width: calc(100% - 1.5rem);
     padding: 1.5rem;
   }
 
@@ -966,6 +966,9 @@ footer {
 
   .gallery-container {
     padding: 40px 0;
+  }
+  .gallery-container img:nth-last-child(2) {
+    margin: 0 10px;
   }
 
   .blog-container {
@@ -1027,8 +1030,5 @@ footer {
 
   .gallery-container {
     padding: 10px 0;
-  }
-  .gallery-container img:nth-last-child(2) {
-    margin: 0 10px;
   }
 }
