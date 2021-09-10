@@ -596,8 +596,6 @@ h1 {
 
 .blog-main {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
