@@ -287,26 +287,7 @@ form button {
 textarea {
   width: 100%;
   margin: 50px 0;
-}
-
-textarea::-webkit-input-placeholder {
-  color: #FFFFFF;
-}
-
-textarea::-moz-placeholder {
-  color: #FFFFFF;
-}
-
-textarea:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-textarea::-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-textarea::placeholder {
-  color: #FFFFFF;
+  padding: 10px;
 }
 
 input, textarea {
@@ -744,6 +725,21 @@ aside img {
 .comment-form #comment {
   border: 1px solid #FF8327;
 }
+.comment-form #comment::-webkit-input-placeholder {
+  color: #FF8327;
+}
+.comment-form #comment::-moz-placeholder {
+  color: #FF8327;
+}
+.comment-form #comment:-ms-input-placeholder {
+  color: #FF8327;
+}
+.comment-form #comment::-ms-input-placeholder {
+  color: #FF8327;
+}
+.comment-form #comment::placeholder {
+  color: #FF8327;
+}
 
 .contact-main {
   display: -webkit-box;
@@ -808,6 +804,26 @@ aside img {
 
 #message {
   border: 1px solid #FFFFFF;
+}
+
+#message::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+#message::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+#message:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+#message::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+#message::placeholder {
+  color: #FFFFFF;
 }
 
 footer {
@@ -918,6 +934,7 @@ footer {
 
   .fa-bars {
     display: inline-block;
+    border-radius: 0;
     font-size: 2rem;
     -ms-flex-item-align: start;
         align-self: start;

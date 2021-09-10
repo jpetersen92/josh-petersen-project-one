@@ -124,4 +124,8 @@ aside {
     #comment {
         border: 1px solid $dusty-orange;
     }
+
+    #comment::placeholder {
+        color: $dusty-orange;
+    }
 }

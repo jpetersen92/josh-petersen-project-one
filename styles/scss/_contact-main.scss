@@ -50,5 +50,8 @@
 
 #message {
     border: 1px solid $off-white;
-    
+}
+
+#message::placeholder {
+    color: $off-white;
 }
