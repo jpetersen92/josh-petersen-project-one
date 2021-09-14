@@ -299,6 +299,10 @@ input, textarea {
   display: none;
 }
 
+.open {
+  left: 0;
+}
+
 h1, .logo, a {
   font-family: "Tulpen One", cursive;
 }
@@ -955,6 +959,7 @@ footer {
             align-items: start;
     padding: 10px 10px 10px 30px;
     position: absolute;
+    left: -100px;
     z-index: 10;
     -webkit-transition: 0.3s;
     transition: 0.3s;
