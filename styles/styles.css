@@ -299,6 +299,10 @@ input, textarea {
   display: none;
 }
 
+.open {
+  left: 0;
+}
+
 h1, .logo, a {
   font-family: "Tulpen One", cursive;
 }
@@ -944,8 +948,25 @@ footer {
   }
 }
 @media (max-width: 768px) {
-  header nav {
-    visibility: hidden;
+  header ul {
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    padding: 10px 10px 10px 30px;
+    position: absolute;
+    left: -100px;
+    z-index: 10;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  .logo {
+    display: none;
   }
 
   .fa-bars {
